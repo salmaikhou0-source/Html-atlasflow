@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400..600&display=swap">
+<style>
+  :root { --ink:#0e1a2e; --paper:#f3f5f9; --blue:#1f48c6; --blue-soft:#e7ecfb; --red:#d3263a; --muted:#566176; --line:#d8dde7; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #888; font-family: "Instrument Sans", Arial, sans-serif; }
+  .post { width: 1080px; height: 1350px; position: relative; overflow: hidden; display: flex; flex-direction: column; padding: 96px 92px 84px; margin-bottom: 40px; }
+  .mono { font-family: "IBM Plex Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
+  .display { font-family: "Bricolage Grotesque", Arial, sans-serif; font-weight: 800; letter-spacing: -.03em; line-height: 1.0; }
+  .brand { display: flex; align-items: center; gap: 18px; font-family: "Bricolage Grotesque"; font-weight: 800; font-size: 38px; letter-spacing: -.01em; }
+  .brand svg { width: 64px; height: 64px; }
+  .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
+  .handle { font-family: "IBM Plex Mono"; font-size: 28px; }
+
+  /* Post 1 — intro, dark */
+  .p1 { background: var(--ink); color: var(--paper); }
+  .p1 .label { color: #aab4c8; font-size: 28px; margin-top: 120px; }
+  .p1 .label b { color: #9fb5ff; font-weight: 500; }
+  .p1 h1 { font-size: 168px; margin-top: 28px; }
+  .p1 .echo { font-family: "Bricolage Grotesque"; font-weight: 600; font-size: 58px; color: #9fb5ff; margin-top: 26px; line-height: 1.12; letter-spacing: -.01em; }
+  .p1 p.body { font-size: 40px; line-height: 1.4; color: #c9d1df; margin-top: 46px; max-width: 840px; }
+  .p1 .pill { background: var(--paper); color: var(--ink); font-weight: 600; font-size: 32px; padding: 20px 30px; border-radius: 999px; }
+  .p1 .handle { color: #aab4c8; }
+
+  /* Post 2 — vocabulary, light */
+  .p2 { background: var(--paper); color: var(--ink); }
+  .p2 .label { color: var(--muted); font-size: 26px; }
+  .p2 .label b { color: var(--blue); font-weight: 500; }
+  .p2 h1 { font-size: 80px; margin-top: 20px; }
+  .p2 h1 span { color: var(--blue); }
+  .rows { margin-top: 40px; border-top: 3px solid var(--ink); }
+  .row { display: grid; grid-template-columns: 1fr 70px 1.25fr; align-items: center; padding: 19px 0; border-bottom: 2px solid var(--line); font-size: 41px; }
+  .row .en { color: var(--muted); } .row .en s { text-decoration-color: var(--red); text-decoration-thickness: 4px; }
+  .row .arrow { color: var(--line); font-family: "IBM Plex Mono"; }
+  .row .fr { font-family: "Bricolage Grotesque"; font-weight: 700; color: var(--blue); }
+  .row .en small { display: block; font-size: 24px; font-family: "IBM Plex Mono"; color: var(--muted); letter-spacing: .04em; margin-top: 4px; }
+  .p2 .note { font-size: 30px; color: var(--muted); margin-top: 28px; line-height: 1.4; }
+  .p2 .handle { color: var(--muted); }
+
+  /* Post 3 — offer, blue */
+  .p3 { background: var(--blue); color: #fff; }
+  .p3 .label { color: #c9d6ff; font-size: 28px; }
+  .p3 h1 { font-size: 96px; margin-top: 24px; }
+  .p3 .card { background: #fff; color: var(--ink); border-radius: 36px; padding: 44px 52px; margin-top: 48px; }
+  .p3 .card .mono { color: var(--blue); font-size: 26px; }
+  .p3 .price { display: flex; align-items: baseline; gap: 16px; margin-top: 16px; }
+  .p3 .price .amt { font-family: "Bricolage Grotesque"; font-weight: 800; font-size: 130px; letter-spacing: -.04em; line-height: 1; }
+  .p3 .price .unit { font-size: 40px; color: var(--muted); }
+  .p3 .card p { font-size: 36px; line-height: 1.4; color: var(--muted); margin-top: 20px; }
+  .p3 .card p strong { color: var(--ink); }
+  .p3 .trial { margin-top: 36px; font-size: 42px; font-weight: 600; }
+  .p3 .handle { color: #c9d6ff; }
+  .mark-back { fill: var(--red); } .mark-front { fill: #3d66e6; stroke: currentColor; }
+  .p2 .mark-front { fill: var(--blue); stroke: var(--paper); }
+  .p1 .mark-front { stroke: var(--ink); }
+  .p3 .mark-front { fill: var(--ink); stroke: var(--blue); }
+  .mark-line { stroke: #fff; }
+</style>
+</head>
+<body>
+
+<section class="post p1" id="post1">
+  <div class="brand"><svg viewBox="0 0 32 32"><path class="mark-back" d="M13 3h14a4 4 0 0 1 4 4v9a4 4 0 0 1-4 4h-1v4l-5-4h-8a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z"/><path class="mark-front" stroke-width="1.5" d="M5 10.5h14a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4h-8l-5 4v-4H5a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/><path class="mark-line" fill="none" stroke-width="2" stroke-linecap="round" d="M7 17h10M7 21h6"/></svg>Bilingual Support Co.</div>
+  <p class="label mono">Toronto · Ontario &nbsp;/&nbsp; <b>Service à la clientèle bilingue</b></p>
+  <h1 class="display">Bonjour, Toronto.</h1>
+  <p class="echo">Your French-speaking customers are writing to you.</p>
+  <p class="body">We answer them in natural Canadian French, from your own inbox and under your name. No hiring. No training.</p>
+  <div class="foot"><span class="pill">Free 2-week trial</span><span class="handle">@bilingualsupportco</span></div>
+</section>
+
+<section class="post p2" id="post2">
+  <div class="brand"><svg viewBox="0 0 32 32"><path class="mark-back" d="M13 3h14a4 4 0 0 1 4 4v9a4 4 0 0 1-4 4h-1v4l-5-4h-8a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z"/><path class="mark-front" stroke-width="1.5" d="M5 10.5h14a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4h-8l-5 4v-4H5a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/><path class="mark-line" fill="none" stroke-width="2" stroke-linecap="round" d="M7 17h10M7 21h6"/></svg>Bilingual Support Co.</div>
+  <p class="label mono" style="margin-top:56px">Canadian French tip &nbsp;/&nbsp; <b>Astuce</b></p>
+  <h1 class="display">5 words your Quebec customers <span>notice.</span></h1>
+  <div class="rows">
+    <div class="row"><span class="en"><s>e-mail</s><small>France / anglicism</small></span><span class="arrow">→</span><span class="fr">courriel</span></div>
+    <div class="row"><span class="en"><s>chat</s><small>for live chat</small></span><span class="arrow">→</span><span class="fr">clavardage</span></div>
+    <div class="row"><span class="en"><s>week-end</s><small>France</small></span><span class="arrow">→</span><span class="fr">fin de semaine</span></div>
+    <div class="row"><span class="en"><s>faire du shopping</s><small>France</small></span><span class="arrow">→</span><span class="fr">magasiner</span></div>
+    <div class="row"><span class="en"><s>service client</s><small>France</small></span><span class="arrow">→</span><span class="fr">service à la clientèle</span></div>
+  </div>
+  <p class="note">Small words, big trust. Customers can tell when a reply was written for them.</p>
+  <div class="foot"><span></span><span class="handle">@bilingualsupportco</span></div>
+</section>
+
+<section class="post p3" id="post3">
+  <div class="brand"><svg viewBox="0 0 32 32"><path class="mark-back" d="M13 3h14a4 4 0 0 1 4 4v9a4 4 0 0 1-4 4h-1v4l-5-4h-8a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4z"/><path class="mark-front" stroke-width="1.5" d="M5 10.5h14a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4h-8l-5 4v-4H5a4 4 0 0 1-4-4v-8a4 4 0 0 1 4-4z"/><path class="mark-line" fill="none" stroke-width="2" stroke-linecap="round" d="M7 17h10M7 21h6"/></svg>Bilingual Support Co.</div>
+  <p class="label mono" style="margin-top:56px">For Toronto businesses</p>
+  <h1 class="display">Your English team is great. Who's answering in French?</h1>
+  <div class="card">
+    <p class="mono">French Desk</p>
+    <div class="price"><span class="amt">$399</span><span class="unit">/ month</span></div>
+    <p>We answer <strong>all your French customer messages</strong>, up to 100 a month. Your team keeps English.</p>
+  </div>
+  <p class="trial">Try it free for 2 weeks. No contract.</p>
+  <div class="foot"><span></span><span class="handle">@bilingualsupportco</span></div>
+</section>
+
+</body>
+</html>

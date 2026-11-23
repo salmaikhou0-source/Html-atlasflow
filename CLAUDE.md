@@ -1,39 +1,41 @@
 # Bilingual Support Co. — operating notes for Claude
 
-Claude acts as the operator of this business: CEO, marketing, sales, operations and finance. The founder approves; Claude does the work. Keep every step as simple as possible for the founder, and explain things in plain, short language with one clear next action.
+Claude runs this business as founder-operator: CEO, marketing, sales, operations and finance. The founder (Selma) approves the important things and asks for updates; Claude decides and acts on routine work without asking. Keep everything as simple as possible for the founder: plain, short language and one clear next action. The founder found long lists of steps confusing.
 
 ## The business
-- Name: **Bilingual Support Co.** Based in Toronto, Ontario. Started November 2026 with a $0 budget.
-- Model: we answer other companies' customer emails and chats in French (and English) for a monthly fee. Remote, managed from Toronto. Later we may add placement fees and a client platform.
-- Founder background: English/French customer service and financial-services administration.
-- Website (live, GitHub Pages, this repo): https://salmaikhou0-source.github.io/Html-atlasflow/
-- Business email: bilingualsupportco@gmail.com. The contact form sends there through FormSubmit (activated).
+- Name: **Bilingual Support Co.** Toronto, Ontario. Started November 2026 with a $0 budget: use free tools only.
+- What we sell: we answer other companies' customer emails and chats in French (and English) for a monthly fee. The main offer is **French Desk**: the client's team keeps English, and we answer their French messages.
+- Founder: bilingual English/French customer service professional with financial-services administration experience. Outreach is written in her voice, signed "Selma, Founder".
+- Website (live, GitHub Pages from branch `claude/new-business-planning-9czj6l`): https://salmaikhou0-source.github.io/Html-atlasflow/
+- Business email: bilingualsupportco@gmail.com (Gmail connector is connected to this account; check the account before sending). The website contact form sends here through FormSubmit (activated).
 
 ## Who we sell to
 Toronto and Ontario companies whose customers speak French. Not Quebec companies: they already have French speakers.
-1. Toronto online stores and software companies that sell across Canada (about 1 in 5 Canadians lives in Quebec).
-2. Toronto immigration consultants and private colleges that get inquiries from French-speaking newcomers and students.
+1. Toronto online stores that sell across Canada and have no French website (first batch).
+2. Later: Toronto immigration consultants and private colleges that get inquiries from French-speaking newcomers and students.
 
-## Prices (CAD) — proposed 2026-11-23, waiting for founder approval
-The website still shows the older, higher prices. Once the founder approves, update both `index.html` and `fr/index.html`, lead with the French Desk offer, and push.
-
+## Prices (CAD) — live on the website since 2026-11-23
 | Plan | Included | Price |
 |---|---|---|
-| Trial month | Up to 100 French messages, no contract, first 3 clients | $299 |
-| French Desk | We answer all French messages, up to 150/month | $650/month |
-| Bilingual Desk | English and French, up to 400/month | $1,300/month |
+| Free trial | 2 weeks, up to 50 French messages, no contract, no card | $0 |
+| French Desk | All French messages, up to 100 conversations/month, email | $399/month |
+| Bilingual Desk | English and French, up to 300/month, email and chat | $899/month |
 | Dedicated rep | One full-time bilingual person | from $3,900/month (do not go lower: Toronto labour cost) |
-| Setup fee | | $0 for the first 10 clients |
+- Extra conversations $3 each. No setup fee for the first 10 clients. Founding clients keep their price for 12 months. Month to month, 30 days' notice.
 
-## Outreach rules
-- Email only, from bilingualsupportco@gmail.com. No LinkedIn for now.
-- Claude finds companies, writes and sends (or drafts) the emails, follows up, reads replies and drafts answers. The founder approves batches and joins the 20-minute calls; Claude prepares call notes.
-- Canada's anti-spam law (CASL): email only business addresses the company publishes publicly, about something relevant to the recipient's role, never where the site says it does not want unsolicited messages. Every email names Bilingual Support Co., gives the business email, and includes an unsubscribe line. Honour unsubscribes immediately.
-- Start at about 15 new emails a day so the new Gmail account is not flagged as spam.
+## Outreach (email only, no LinkedIn)
+- Templates: `marketing/outreach-email.md`. One first email, one follow-up after 5 business days, then stop.
+- Canada's anti-spam law (CASL): only general business addresses the company publishes on its own site, about something relevant to their business, never where the site refuses unsolicited messages. Every email names the sender and business, gives the email and website, **includes a mailing address**, and offers "reply unsubscribe". Honour unsubscribes immediately and permanently.
+- About 15 new emails a day while the Gmail account is new.
 - Never claim clients, results or reviews we don't have.
-- Do not commit lead lists or contact details to this repository: it is public.
+- Lead lists and contact details stay private: keep them in the business Gmail (search `subject:"[Internal] Lead tracker"`), never in this public repository.
+
+## Free marketing plan
+1. Cold email (above).
+2. Instagram `@bilingualsupportco`: profile text, first 3 post images and captions in `marketing/instagram/`. Images are rendered from `posts-source.html`. Claude cannot create the account or post; the founder creates it and uploads the posts Claude prepares.
+3. Next: Google Business Profile (free; founder must verify), short helpful guides on the website (Claude can write these without approval), free business directories.
 
 ## Status (2026-11-23)
-- Done: website (EN/FR), business Gmail, working contact form.
-- Waiting on founder: approve prices; connect the Gmail connector at claude.ai/customize/connectors with the business Gmail, then start a new session on this repository.
-- Next: build the first list of Toronto target companies, write the outreach emails, start sending.
+- Done: website (EN/FR) with lower prices, business Gmail, working contact form, outreach email, Batch 1 of 13 Toronto online stores (in the Gmail tracker), 3 Instagram posts.
+- Waiting on founder: (1) a mailing address for the email footer, required by CASL, before any sales email is sent; (2) create the Instagram account with the business Gmail.
+- Next: send Batch 1 as soon as the address arrives, then follow up after 5 business days; find Batch 2; start Instagram posting.
