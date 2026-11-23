@@ -13,7 +13,7 @@ My name is Selma. I'm a bilingual (English and French) customer service professi
 
 {Company} sells online across Canada, so some of your customers probably write to you in French. I recently started Bilingual Support Co. to answer those messages for Ontario businesses. I reply from inside your own inbox, under your company's name, in natural Canadian French. Your team keeps handling English.
 
-To get started, I'm offering a free 2-week trial: I'll answer up to 50 of your French customer messages at no cost, with no contract. After that, it's $399 a month if you'd like to continue.
+To get started, I'm offering a free 2-week trial: I'll answer up to 50 of your French customer messages at no cost, with no contract. After that, it's $250 a month if you'd like to continue.
 
 Would you be open to a quick 15-minute call this week or next?
 

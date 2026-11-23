@@ -18,7 +18,7 @@ Toronto and Ontario companies whose customers speak French. Not Quebec companies
 | Plan | Included | Price |
 |---|---|---|
 | Free trial | 2 weeks, up to 50 French messages, no contract, no card | $0 |
-| French Desk | All French messages, up to 100 conversations/month, email | $399/month |
+| French Desk | All French messages, up to 100 conversations/month, email | $250/month |
 | Bilingual Desk | English and French, up to 300/month, email and chat | $899/month |
 | Dedicated rep | One full-time bilingual person (~160 h) | $2,500/month |
 - Price rule from the founder: clients must clearly win compared with hiring. A full-time customer service employee in Toronto costs about $4,000+/month with payroll costs (Job Bank median ~$21.50/h, Toronto Region). The $2,500 dedicated rep only works with remote reps in lower-cost French-speaking regions; never staff it with a Toronto employee at a loss.

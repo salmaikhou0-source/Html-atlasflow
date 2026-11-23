@@ -33,7 +33,7 @@ Save this for your next French reply. Want someone to write them for you? Link i
 ### post-3.png — Who's answering in French?
 Your English team is great. Who's answering your French-speaking customers?
 
-French Desk: we answer all your French customer messages, up to 100 a month, for $399/month. Your team keeps English.
+French Desk: we answer all your French customer messages, up to 100 a month, for $250/month. Your team keeps English.
 
 Try it free for 2 weeks, no contract. Link in bio, or email bilingualsupportco@gmail.com.
 
