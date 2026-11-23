@@ -25,14 +25,11 @@ It's plain HTML and CSS with no build step, so it can be hosted for free.
 
 The repository can be renamed (for example to `bilingual-support-co`) under **Settings → General**. The web address changes with it.
 
-## Connect the contact form (free)
+## Contact form (free)
 
-1. Create a free account at formspree.io using the business email address.
-2. Create a new form and copy its endpoint. It looks like `https://formspree.io/f/abcdwxyz`.
-3. In `assets/site.js`, paste it into `FORM_ENDPOINT` at the top of the file.
-4. Put the business email in `CONTACT_EMAIL` on the next line. It then appears on the contact section and the privacy pages.
+The form sends messages to the business inbox through FormSubmit (formsubmit.co), which is free and needs no account. The inbox address is `CONTACT_EMAIL` at the top of `assets/site.js`.
 
-Until `FORM_ENDPOINT` is set, the form tells visitors their message wasn't sent.
+The first message ever sent triggers an "Activate Form" email from FormSubmit to that inbox. Click the button in it once; after that, every message arrives normally. If you ever change the address, activate it again the same way.
 
 ## Change prices or text
 
@@ -40,8 +37,8 @@ Prices appear on both home pages. Change them in `index.html` (English format: `
 
 ## Before launch
 
-- [ ] Create the business email and fill in `CONTACT_EMAIL`
-- [ ] Connect the form (`FORM_ENDPOINT`)
+- [x] Create the business email and fill in `CONTACT_EMAIL`
+- [ ] Activate the form (click the FormSubmit email once)
 - [ ] Add the founder's name, photo and LinkedIn in the About section (both languages)
 - [ ] Register the business name "Bilingual Support Co." in Ontario
 - [ ] Later: buy `bilingualsupport.ca` and point it at GitHub Pages

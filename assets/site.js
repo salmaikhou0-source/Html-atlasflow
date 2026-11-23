@@ -3,13 +3,13 @@
   "use strict";
 
   /* ================== SETTINGS: fill these in once ==================
-     FORM_ENDPOINT: the address of your free Formspree form,
-       for example "https://formspree.io/f/abcdwxyz".
-     CONTACT_EMAIL: the business email shown on the site,
-       for example "bilingualsupportco@gmail.com".
-     Leave a setting empty ("") until it exists. */
-  var FORM_ENDPOINT = "";
-  var CONTACT_EMAIL = "";
+     CONTACT_EMAIL: the business inbox. Contact-form messages are delivered
+       there for free by FormSubmit (formsubmit.co), and it is shown on the site.
+     FORM_ENDPOINT: where the form sends messages. By default it is built from
+       CONTACT_EMAIL; it can be replaced with a FormSubmit alias or a Formspree
+       form address. Leave CONTACT_EMAIL empty ("") until the inbox exists. */
+  var CONTACT_EMAIL = "bilingualsupportco@gmail.com";
+  var FORM_ENDPOINT = CONTACT_EMAIL ? "https://formsubmit.co/ajax/" + CONTACT_EMAIL : "";
   /* ================================================================= */
 
   var root = document.querySelector("[data-page-lang]");
@@ -93,6 +93,8 @@
 
       var data = new FormData(form);
       data.append("page_language", lang);
+      data.append("_subject", lang === "fr" ? "Nouvelle demande (site Web, FR)" : "New website inquiry (EN)");
+      data.append("_template", "table");
 
       fetch(FORM_ENDPOINT, {
         method: "POST",
@@ -101,6 +103,11 @@
       })
         .then(function (res) {
           if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.json().catch(function () { return {}; });
+        })
+        .then(function (body) {
+          /* FormSubmit answers {success: "true"}, Formspree answers {ok: true} */
+          if (body && (body.success === false || body.success === "false")) throw new Error(body.message || "rejected");
           form.reset();
           show(text.sent, "ok");
         })
