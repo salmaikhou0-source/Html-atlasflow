@@ -10,9 +10,13 @@ Claude runs this business as founder-operator: CEO, marketing, sales, operations
 - Business email: bilingualsupportco@gmail.com (Gmail connector is connected to this account; check the account before sending). The website contact form sends here through FormSubmit (activated).
 
 ## Who we sell to
-Toronto and Ontario companies whose customers speak French. Not Quebec companies: they already have French speakers.
-1. Toronto online stores that sell across Canada and have no French website (first batch).
-2. Later: Toronto immigration consultants and private colleges that get inquiries from French-speaking newcomers and students.
+Any company **outside Quebec** that has French-speaking customers (Quebec companies already have French speakers). All of Ontario, including Mississauga, Waterloo, Hamilton, London and smaller cities, plus BC, Alberta, the Prairies and the Atlantic provinces. Smaller companies in smaller cities often struggle most to hire French speakers.
+Target groups for the first 100 emails:
+1. Online stores that sell across Canada and have no French website (about 50).
+2. Immigration consultants with French-speaking clients (about 20).
+3. Private colleges and language schools that recruit international students (about 15).
+4. Small software/tech companies that sell across Canada (about 15).
+Goal set by the founder: send as many as possible; 1–2 interested replies per 100 emails is a realistic start. Spread sending over about a week (about 15 on day 1, up to 25 a day after), one follow-up after 5 business days, review results after the first 30.
 
 ## Prices (CAD) — live on the website since 2026-11-23
 | Plan | Included | Price |
