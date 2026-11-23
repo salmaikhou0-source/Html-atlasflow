@@ -40,7 +40,12 @@ Goal set by the founder: send as many as possible; 1–2 interested replies per 
 2. Instagram `@bilingualsupportco`: profile text, first 3 post images and captions in `marketing/instagram/`. Images are rendered from `posts-source.html`. Claude cannot create the account or post; the founder creates it and uploads the posts Claude prepares.
 3. Next: Google Business Profile (free; founder must verify), short helpful guides on the website (Claude can write these without approval), free business directories.
 
+## Finding leads
+- `tools/madeinca_domains.py <categories...>` lists brand websites from the madeinca.ca directory of Canadian-made brands. `tools/lead_check.py domains.txt` checks each site: French version, province from postal codes, Quebec signals, a general business email on the company's own domain, and any no-solicitation statement. Keep only: site up, no French version, generic email, no no-solicitation statement, no Quebec signals. Run Python with `-I` and the proxy CA bundle; keep output out of this repo.
+- Never email personal addresses (first names) or press/careers/privacy addresses.
+
 ## Status (2026-11-23)
-- Done: website (EN/FR) with lower prices, business Gmail, working contact form, outreach email, Batch 1 of 13 Toronto online stores (in the Gmail tracker), 3 Instagram posts.
+- Done: website (EN/FR), $250 French Desk and $2,500 dedicated rep live, business Gmail, working contact form, outreach email, Instagram posts 1–3.
+- Leads: 45 online stores ready (Batch 1: 1–13, Batch 2: 14–45) in the Gmail tracker. Still to find for the first 100: ~5 online stores, ~20 immigration consultants, ~15 private colleges/language schools, ~15 small software companies (each needs its own email variant).
 - Waiting on founder: (1) a mailing address for the email footer, required by CASL, before any sales email is sent; (2) create the Instagram account with the business Gmail.
-- Next: send Batch 1 as soon as the address arrives, then follow up after 5 business days; find Batch 2; start Instagram posting.
+- Next: send ~15 on the first day once the address arrives, then up to 25 a day; follow up after 5 business days; review after the first 30.
