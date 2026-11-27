@@ -47,5 +47,7 @@ Goal set by the founder: send as many as possible; 1–2 interested replies per 
 ## Status (2026-11-23)
 - Done: website (EN/FR), $250 French Desk and $2,500 dedicated rep live, business Gmail, working contact form, outreach email, Instagram posts 1–3.
 - Leads: 45 online stores ready (Batch 1: 1–13, Batch 2: 14–45) in the Gmail tracker. Still to find for the first 100: ~5 online stores, ~20 immigration consultants, ~15 private colleges/language schools, ~15 small software companies (each needs its own email variant).
-- Waiting on founder: (1) a mailing address for the email footer, required by CASL, before any sales email is sent; (2) create the Instagram account with the business Gmail.
+- Cold email is PAUSED (2026-11-27): the founder won't share her home or a family address and can't pay for a mailbox yet, and CASL requires a mailing address in every sales email. Do not send the 45 ready emails until there is an address. Plan: once the first client pays, get the cheapest virtual mailbox (~$8/month) and restart cold email.
+- Meanwhile, free channels that need no mailing address: replies to job ads for bilingual/French customer service outside Quebec that are open to contractors (a response to their request); freelance marketplace profiles (founder creates the accounts); Instagram; short helpful guides on the website for Google.
+- Waiting on founder: create the Instagram account with the business Gmail.
 - Next: send ~15 on the first day once the address arrives, then up to 25 a day; follow up after 5 business days; review after the first 30.
