@@ -48,6 +48,11 @@ Goal set by the founder: send as many as possible; 1–2 interested replies per 
 - Done: website (EN/FR), $250 French Desk and $2,500 dedicated rep live, business Gmail, working contact form, outreach email, Instagram posts 1–3.
 - Leads: 45 online stores ready (Batch 1: 1–13, Batch 2: 14–45) in the Gmail tracker. Still to find for the first 100: ~5 online stores, ~20 immigration consultants, ~15 private colleges/language schools, ~15 small software companies (each needs its own email variant).
 - Cold email is PAUSED (2026-11-27): the founder won't share her home or a family address and can't pay for a mailbox yet, and CASL requires a mailing address in every sales email. Do not send the 45 ready emails until there is an address. Plan: once the first client pays, get the cheapest virtual mailbox (~$8/month) and restart cold email.
-- Meanwhile, free channels that need no mailing address: replies to job ads for bilingual/French customer service outside Quebec that are open to contractors (a response to their request); freelance marketplace profiles (founder creates the accounts); Instagram; short helpful guides on the website for Google.
-- Waiting on founder: create the Instagram account with the business Gmail.
+- Free channels that need no mailing address (since 2026-11-27):
+  - Job Bank was a dead end: matching ads use Direct Apply or links, show no email, and are for permanent employees. Don't repeat it.
+  - Website guides live: `guides/answer-french-customer-emails.html` and `guides/canadian-french-customer-service-words.html`, linked from the home page; `sitemap.xml` and `robots.txt` added. Add a new guide when there's time (Claude can do this alone).
+  - Freelance marketplaces: Fiverr gig and Upwork profile text ready in `marketing/marketplaces.md`. The founder must create the Fiverr account ("Continue with Google" with the business Gmail), then Claude fills it in. Fiverr buyers must stay on Fiverr.
+  - Instagram posts 1–3 ready.
+- Funding idea: Toronto's Starter Company Plus ($5,000 micro-grant plus training) reportedly reopens January 4, 2027; eligibility may require the business to have operated for some months. Check toronto.ca in early January.
+- Waiting on founder: create the Fiverr account and the Instagram account, both with the business Gmail.
 - Next: send ~15 on the first day once the address arrives, then up to 25 a day; follow up after 5 business days; review after the first 30.
