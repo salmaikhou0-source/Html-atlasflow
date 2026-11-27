@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://salmaikhou0-source.github.io/Html-atlasflow/sitemap.xml
